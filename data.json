@@ -1,0 +1,145 @@
+{
+    "PlanList": {
+        "TestCases": [
+            {
+                "TestCase": "DKP1611004-0001",
+                "01": "True",
+                "02": "True",
+                "03": "True",
+                "04": "True",
+                "05": "True",
+                "06": "True"
+            },
+            {
+                "TestCase": "DKP1811005-0011",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0012",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0013",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0014",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0015",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0016",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0017",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0018",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0019",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0020",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0041",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0071",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0091",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0092",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0093",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0094",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0095",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0096",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0097",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0098",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0099",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0100",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-00101",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0111",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0122",
+                "01": "True",
+                "02": "[True, True]"
+            },
+            {
+                "TestCase": "DKP1811005-0124",
+                "01": "True",
+                "02": "[True, True]"
+            }
+        ]
+    }
+}

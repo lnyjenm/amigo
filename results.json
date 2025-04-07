@@ -1,0 +1,2 @@
+{"Test Plan": "country channel", "Test Case": "DKP1811005-0013:", "Test item": {"no": 1, "name": "01", "detail": {"Expected": ["True"], "Found": ["True"]}}, "Result": "PASS", "Log file": "log_.txt", "Model": "MS30", "Firmware": "1.00B99", "Statistics": {"PASS": 1, "Fail": 1}}
+{"Test Plan": "country channel", "Test Case": "DKP1811005-0013:", "Test item": {"no": 2, "name": "02", "detail": {"Expected": ["True"], "Found": ["False"]}}, "Result": "Fail", "Log file": "log_.txt", "Model": "MS30", "Firmware": "1.00B99", "Statistics": {"PASS": 1, "Fail": 1}}

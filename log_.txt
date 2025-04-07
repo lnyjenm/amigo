@@ -1,0 +1,10 @@
+Results for DKP1811005-0013:
+  01_comparison result: PASS
+    Expected: True
+    Found: True
+  02_comparison result: Fail
+    Expected: True
+    Found: False
+PASS: 1
+Fail: 1
+Total: 2
