@@ -1,145 +1,251 @@
 {
-    "PlanList": {
-        "TestCases": [
-            {
-                "TestCase": "DKP1611004-0001",
-                "01": "True",
-                "02": "True",
-                "03": "True",
-                "04": "True",
-                "05": "True",
-                "06": "True"
-            },
-            {
-                "TestCase": "DKP1811005-0011",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0012",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0013",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0014",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0015",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0016",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0017",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0018",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0019",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0020",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0041",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0071",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0091",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0092",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0093",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0094",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0095",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0096",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0097",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0098",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0099",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0100",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-00101",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0111",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0122",
-                "01": "True",
-                "02": "[True, True]"
-            },
-            {
-                "TestCase": "DKP1811005-0124",
-                "01": "True",
-                "02": "[True, True]"
-            }
-        ]
+    "Reference": "D-LinkWi-FIfrequencytable_20240528.pdf",
+    "countryList":{
+            "Australia": {
+            "Country": "Australia",
+            "Country_Code_24G": "AU",
+            "Country_Code_5G": "AU",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+        },
+        "DI(Specifiedregions)": {
+            "Country": "DI(Specifiedregions)",
+            "Country_Code_24G": "DI",
+            "Country_Code_5G": "",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [],
+            "ChannelList_DFS 5G":[]
+        },
+        "UnitedStates(FCC)": {
+            "Country": "UnitedStates(FCC)",
+            "Country_Code_24G": "NA",
+            "Country_Code_5G": "NA",
+            "Country_Code_6G": "NA",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85,101,117,133,149,165,181,197,213,299]
+        },
+        "Canada(IC)": {
+            "Country": "Canada(IC)",
+            "Country_Code_24G": "NA",
+            "Country_Code_5G": "CA",
+            "Country_Code_6G": "CA",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85,101,117,133,149,165,181,197,213,299]
+        },
+        "LatinAmerica": {
+            "Country": "LatinAmerica",
+            "Country_Code_24G": "LA",
+            "Country_Code_5G": "LA",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[]
+        },
+        "Brazil": {
+            "Country": "Brazil",
+            "Country_Code_24G": "BR",
+            "Country_Code_5G": "BR",
+            "Country_Code_6G": "BR",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85,101,117,133,149,165,181,197,213,299]
+        },
+        "Taiwan(NCC)": {
+            "Country": "Taiwan(NCC)",
+            "Country_Code_24G": "TW",
+            "Country_Code_5G": "TW",
+            "Country_Code_6G": "TW",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Europe(CE)": {
+            "Country": "Europe(CE)",
+            "Country_Code_24G": "EU",
+            "Country_Code_5G": "EU",
+            "Country_Code_6G": "EU",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "China(CCC)": {
+            "Country": "China(CCC)",
+            "Country_Code_24G": "CN",
+            "Country_Code_5G": "CN",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64]
+        },
+        "Singapore": {
+            "Country": "Singapore",
+            "Country_Code_24G": "SG",
+            "Country_Code_5G": "SG",
+            "Country_Code_6G": "SG",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Singapore(IMDA)": {
+            "Country": "Singapore(IMDA)",
+            "Country_Code_24G": "SG1",
+            "Country_Code_5G": "SG1",
+            "Country_Code_6G": "SG1",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Korea(KC)": {
+            "Country": "Korea(KC)",
+            "Country_Code_24G": "EU",
+            "Country_Code_5G": "KR",
+            "Country_Code_6G": "KR",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112],
+            "ChannelList_6G":[5,21,37,53,69,85,101,117,133,149,165,181,197,213,299]
+        },
+        "France": {
+            "Country": "France",
+            "Country_Code_24G": "EU",
+            "Country_Code_5G": "EU",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+        },
+        "Japan(Telec)": {
+            "Country": "Japan(Telec)",
+            "Country_Code_24G": "JP",
+            "Country_Code_5G": "JP",
+            "Country_Code_6G": "JP",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Israel": {
+            "Country": "Israel",
+            "Country_Code_24G": "EU",
+            "Country_Code_5G": "IL",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64],
+            "ChannelList_DFS 5G":[52, 56, 60, 64]
+        },
+        "Russia": {
+            "Country": "Russia",
+            "Country_Code_24G": "RU",
+            "Country_Code_5G": "RU",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 132, 136, 140, 144, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[]
+        },
+        "Thailand": {
+            "Country": "Thailand",
+            "Country_Code_24G": "TH",
+            "Country_Code_5G": "TH",
+            "Country_Code_6G": "TH",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Malaysia": {
+            "Country": "Malaysia",
+            "Country_Code_24G": "MY",
+            "Country_Code_5G": "MY",
+            "Country_Code_6G": "MY",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "India": {
+            "Country": "India",
+            "Country_Code_24G": "IN",
+            "Country_Code_5G": "IN",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+        },
+        "HongKong": {
+            "Country": "HongKong",
+            "Country_Code_24G": "HK",
+            "Country_Code_5G": "HK",
+            "Country_Code_6G": "HK",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Indonesia": {
+            "Country": "Indonesia",
+            "Country_Code_24G": "ID",
+            "Country_Code_5G": "ID",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[]
+        },
+        "Bangladesh": {
+            "Country": "Bangladesh",
+            "Country_Code_24G": "BD",
+            "Country_Code_5G": "BD",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [149, 153, 157, 161, 165],
+            "ChannelList_DFS 5G":[]
+        },
+        "Universal": {
+            "Country": "Universal",
+            "Country_Code_24G": "DL",
+            "Country_Code_5G": "DL",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+            "ChannelList_5G": [36, 40, 44, 48],
+            "ChannelList_DFS 5G":[]
+        },
+        "Morocco": {
+            "Country": "Morocco",
+            "Country_Code_24G": "MA",
+            "Country_Code_5G": "MA",
+            "Country_Code_6G": "MA",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64],
+            "ChannelList_DFS 5G":[52, 56, 60, 64],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "Egypt": {
+            "Country": "Egypt",
+            "Country_Code_24G": "EU",
+            "Country_Code_5G": "EG",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64],
+            "ChannelList_DFS 5G":[52, 56, 60, 64]
+        },
+        "MiddleEast": {
+            "Country": "MiddleEast",
+            "Country_Code_24G": "ME",
+            "Country_Code_5G": "ME",
+            "Country_Code_6G": "ME",
+            "ChannelList_2G": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "ChannelList_5G": [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140],
+            "ChannelList_DFS 5G":[52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        },
+        "UnitedKingdom": {
+            "Country": "UnitedKingdom",
+            "Country_Code_24G": "UK",
+            "Country_Code_5G": "UK",
+            "Country_Code_6G": "UK",
+            "ChannelList_2G": [],
+            "ChannelList_5G": [],
+            "ChannelList_DFS 5G":[],
+            "ChannelList_6G":[5,21,37,53,69,85]
+        }
     }
 }

@@ -1,70 +1,84 @@
 import json
+import re
 
-def parse_results_to_json(log_file_path, test_plan, model, firmware, correct_count, incorrect_count):
-    with open(log_file_path, 'r') as file:
-        lines = file.readlines()
+def parse_log_content(log_content, log_file_name, model, firmware):
+    """Parse content of a log file and return a list of dictionaries."""
 
-    results = []
-    current_item_no = 1
+    # Initialize variables
+    test_plan = "country channel"
+    test_item_number = 1
+    countries = []
+    current_country = None
 
-    for i in range(len(lines)):
-        line = lines[i].strip()
-        if line.startswith("Results for"):
-            test_case = line.split("for ")[1]
-        elif line.endswith("result: PASS") or line.endswith("result: Fail") or line.endswith("result: Skipped"):
-            result = line.split("result: ")[1]
-            item_name = line.split("_comparison result")[0].strip()
-            
-            # 確保有下一行可讀取，並讀取期望值行和實際值行
-            if i + 1 < len(lines):
-                expected_line = lines[i + 1].strip()  # 讀取期望值行
-            if i + 2 < len(lines):
-                found_line = lines[i + 2].strip()     # 讀取實際值行
+    for line in log_content.splitlines():
+        # Detecting the country (which will be used as the "value" in "Test Case")
+        match = re.match(r"Results for (.+):", line)
+        if match:
+            country_name = match.group(1).strip()
+            continue
 
-            expected = expected_line.split("Expected: ")[1].strip("[]").split(",")
-            found = found_line.split("Found: ")[1].strip("[]").split(",")
+        # Detecting and storing test items and their results
+        if "comparison result" in line:
+            test_item_name = line.split("comparison result")[0].strip()
 
-            # 構建 JSON 結構
-            test_item = {
+            # Save the previous country
+            if current_country:
+                countries.append(current_country)
+
+            # Initialize the current country
+            current_country = {
                 "Test Plan": test_plan,
-                "Test Case": test_case,
+                "Test Case": country_name,
                 "Test item": {
-                    "no": current_item_no,
-                    "name": item_name,
-                    "detail": {
-                        "Expected": [exp.strip() for exp in expected],
-                        "Found": [f.strip() for f in found]
-                    }
+                    "no": test_item_number,
+                    "name": test_item_name,
+                    "detail": {}
                 },
-                "Result": result,
-                "Log file": log_file_path,
+                "Result": "",
+                "Log file": log_file_name,
                 "Model": model,
-                "Firmware": firmware,
-                "Statistics": {
-                    "PASS": correct_count,
-                    "Fail": incorrect_count,
-                }
+                "Firmware": firmware
             }
 
-            results.append(test_item)
-            current_item_no += 1
+            # Parse the result
+            result = line.split(":")[1].strip()
+            current_country["Result"] = result
 
-    # 輸出到 JSON 檔案，每個項目一行
-    with open('results.json', 'w') as json_file:
-        for item in results:
-            json_file.write(json.dumps(item, ensure_ascii=False) + "\n")
+            test_item_number += 1
+            continue
 
-    print("結果已成功轉換為 JSON 格式並儲存至 results.json")
+        # Detecting and storing the expected and found details for the test items
+        if "Expected" in line or "Found" in line or "Errors" in line:
+            key, value = line.split(": ", 1)
+            value_list = [x.strip() for x in value.strip("[]").split(",") if x.strip()]
+            current_country["Test item"]["detail"][key.strip()] = value_list
 
-# 如果需要單獨執行該檔案，可以添加以下代碼
+    # Add the last processed country to the list
+    if current_country:
+        countries.append(current_country)
+
+    # Return the list of all countries
+    return countries
+
+def write_json_to_file(json_data, file_path):
+    with open(file_path, 'w') as json_file:
+        for entry in json_data:
+            json.dump(entry, json_file)
+            json_file.write('\n')  # Write each JSON object to a new line
 if __name__ == "__main__":
-    log_file_path = 'log_.txt'  # 輸入的 log 檔案
-    test_plan = "country channel"
-    model = "MS30"
-    firmware = "1.00B99"
-
-    # 這裡的參數需要根據實際情況調整
-    correct_count = 0
-    incorrect_count = 0
-
-    parse_results_to_json(log_file_path, test_plan, model, firmware, correct_count, incorrect_count)
+    
+    # Load the log file and convert to JSON
+    log_file_path = 'log_20240823_172829.txt'  # Update this with your log file path
+    with open(log_file_path, 'r') as file:
+        log_content = file.read()
+    
+    # Parse log content
+    parsed_data = parse_log_content(log_content,"log_20240823_172829.txt", "MS30", "1.00B99")
+    
+    # Write JSON result to a file, one "Test Plan" per line
+    write_json_to_file(parsed_data, 'converted_log.json')
+    
+    #Print the JSON result (for verification)
+    for entry in parsed_data:
+        print(json.dumps(entry, indent=2))
+    

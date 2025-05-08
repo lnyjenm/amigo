@@ -1,0 +1,344 @@
+Results for Australia:
+  Country_Code_24G: AU
+  Country_Code_5G: AU
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for DI(Specifiedregions):
+  Country_Code_24G: DI
+  Country_Code_5G: 
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: []
+    Found: []
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Results for UnitedStates(FCC):
+  Country_Code_24G: NA
+  Country_Code_5G: NA
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Canada(IC):
+  Country_Code_24G: NA
+  Country_Code_5G: CA
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for LatinAmerica:
+  Country_Code_24G: LA
+  Country_Code_5G: LA
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Results for Brazil:
+  Country_Code_24G: BR
+  Country_Code_5G: BR
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Taiwan(NCC):
+  Country_Code_24G: TW
+  Country_Code_5G: TW
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Europe(CE):
+  Country_Code_24G: EU
+  Country_Code_5G: EU
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+
+Results for China(CCC):
+  Country_Code_24G: CN
+  Country_Code_5G: CN
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64]
+    Found: [52, 56, 60, 64]
+
+Results for Singapore:
+  Country_Code_24G: SG
+  Country_Code_5G: SG
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Singapore(IMDA):
+  Country_Code_24G: SG1
+  Country_Code_5G: SG1
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Korea(KC):
+  Country_Code_24G: EU
+  Country_Code_5G: KR
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112]
+
+Results for France:
+  Country_Code_24G: EU
+  Country_Code_5G: EU
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140]
+
+Results for Japan(Telec):
+  Country_Code_24G: JP
+  Country_Code_5G: JP
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144]
+
+Results for Israel:
+  Country_Code_24G: EU
+  Country_Code_5G: IL
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64]
+    Found: [52, 56, 60, 64]
+
+Results for Russia:
+  Country_Code_24G: RU
+  Country_Code_5G: RU
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 132, 136, 140, 144, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 132, 136, 140, 144, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Results for Malaysia:
+  Country_Code_24G: MY
+  Country_Code_5G: MY
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112]
+
+Results for Morocco:
+  Country_Code_24G: MA
+  Country_Code_5G: MA
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64]
+    Found: [52, 56, 60, 64]
+
+Results for Egypt:
+  Country_Code_24G: EU
+  Country_Code_5G: EG
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64]
+    Found: [52, 56, 60, 64]
+
+Results for MiddleEast:
+  Country_Code_24G: ME
+  Country_Code_5G: ME
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 116, 132, 136, 140]
+
+Results for Thailand:
+  Country_Code_24G: TH
+  Country_Code_5G: TH
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for India:
+  Country_Code_24G: IN
+  Country_Code_5G: IN
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for HongKong:
+  Country_Code_24G: HK
+  Country_Code_5G: HK
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+    Found: [52, 56, 60, 64, 100, 104, 108, 112, 132, 136, 140]
+
+Results for Indonesia:
+  Country_Code_24G: ID
+  Country_Code_5G: ID
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165]
+    Found: [36, 40, 44, 48, 52, 56, 60, 64, 149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Results for Bangladesh:
+  Country_Code_24G: BD
+  Country_Code_5G: BD
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  ChannelList_5G comparison result: PASS
+    Expected: [149, 153, 157, 161, 165]
+    Found: [149, 153, 157, 161, 165]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Results for Universal:
+  Country_Code_24G: DL
+  Country_Code_5G: DL
+  ChannelList_2G comparison result: PASS
+    Expected: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    Found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  ChannelList_5G comparison result: PASS
+    Expected: [36, 40, 44, 48]
+    Found: [36, 40, 44, 48]
+  ChannelList_DFS 5G comparison result: PASS
+    Expected: []
+    Found: []
+
+Total Results:
+  Total PASS: 78
+  Total FAIL: 0
+  Total SKIP: 0
+Duplicate Countries:
+Reference: Reference not found
